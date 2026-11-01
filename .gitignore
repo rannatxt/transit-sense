@@ -1,0 +1,45 @@
+# Logs & Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# DevSecOps Secret Guardrails: Block ALL environment and credential files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+id_rsa*
+secrets/
+
+# Build artifacts
+dist/
+dist-ssr/
+*.local
+.turbo
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Machine Learning & Large Weights
+*.engine
+*.onnx
+*.pt
+*.pth
+*.weights
+ml_engine/models/*.engine
+ml_engine/models/*.pt

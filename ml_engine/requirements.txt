@@ -1,0 +1,13 @@
+# TensorRT YOLOv11 & ByteTrack Inference Dependencies
+ultralytics>=8.3.0
+torch>=2.2.0
+torchvision>=0.17.0
+opencv-python-headless>=4.9.0
+numpy>=1.26.0
+filterpy>=1.4.5
+scipy>=1.12.0
+lap>=0.4.0
+pydantic>=2.6.0
+python-dotenv>=1.0.1
+redis>=5.0.3
+websockets>=12.0
